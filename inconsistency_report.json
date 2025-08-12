@@ -1,0 +1,231 @@
+{
+  "analyzed_at": "2025-08-11T10:17:00.875589Z",
+  "source": "/mnt/c/Users/User/Downloads/NoogatAssignment/NoogatAssignment/NoogatAssignment.pptx",
+  "issues": [
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        1
+      ],
+      "evidence": [
+        {
+          "slide": 1,
+          "snippet": "y – Noogat helps consultants make decks 2 x faster using AI",
+          "value": 2.0,
+          "raw": "2",
+          "key": "– Noogat helps consultants make decks x faster using AI"
+        },
+        {
+          "slide": 1,
+          "snippet": "15 m ins",
+          "value": 15.0,
+          "raw": "15 m",
+          "key": "ins"
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        1,
+        2
+      ],
+      "evidence": [
+        {
+          "slide": 1,
+          "snippet": "$2M",
+          "value": 2.0,
+          "raw": "$2M",
+          "key": ""
+        },
+        {
+          "slide": 2,
+          "snippet": "$3M saved in lost productivity hours annual",
+          "value": 3.0,
+          "raw": "$3M",
+          "key": "saved in lost productivity hours annual"
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        3
+      ],
+      "evidence": [
+        {
+          "slide": 3,
+          "snippet": "Noogat:  50 Hours Saved Per Consultant Monthly",
+          "value": 50.0,
+          "raw": " 50",
+          "key": "Noogat: Hours Saved Per Consultant Monthly"
+        },
+        {
+          "slide": 3,
+          "snippet": "al adjustments. This saves an estimated 10 hours per consultant monthly.",
+          "value": 10.0,
+          "raw": "10",
+          "key": "al adjustments. This saves an estimated hours per consultant monthly."
+        },
+        {
+          "slide": 3,
+          "snippet": "ial setup time. This saves an estimated 12 hours per consultant monthly.",
+          "value": 12.0,
+          "raw": "12",
+          "key": "setup time. This saves an estimated hours per consultant monthly."
+        },
+        {
+          "slide": 3,
+          "snippet": "visual appeal. This saves an estimated 8 hours per consultant monthly.",
+          "value": 8.0,
+          "raw": "8",
+          "key": "visual appeal. This saves an estimated hours per consultant monthly."
+        },
+        {
+          "slide": 3,
+          "snippet": "sual hierarchy. This saves an estimated 6 hours per consultant monthly.",
+          "value": 6.0,
+          "raw": "6",
+          "key": "sual hierarchy. This saves an estimated hours per consultant monthly."
+        },
+        {
+          "slide": 3,
+          "snippet": "anual checking. This saves an estimated 4 hours per consultant monthly.",
+          "value": 4.0,
+          "raw": "4",
+          "key": "anual checking. This saves an estimated hours per consultant monthly."
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        4
+      ],
+      "evidence": [
+        {
+          "slide": 4,
+          "snippet": "livers significant monthly time savings:  10 hours from automated formatting, 12 hou",
+          "value": 10.0,
+          "raw": " 10",
+          "key": "livers significant monthly time savings: hours from automated formatting,  hou"
+        },
+        {
+          "slide": 4,
+          "snippet": "ot offers moderate monthly time savings:  2 hours from basic formatting, 3 hours fr",
+          "value": 2.0,
+          "raw": " 2",
+          "key": "ot offers moderate monthly time savings: hours from basic formatting,  hours"
+        },
+        {
+          "slide": 4,
+          "snippet": "savings: 2 hours from basic formatting,  3 hours from content generation, and 1 ho",
+          "value": 3.0,
+          "raw": " 3",
+          "key": "savings:  hours from basic formatting, hours from content generation, and"
+        },
+        {
+          "slide": 4,
+          "snippet": "a provides minimal monthly time savings:  1 hour from basic formatting, 2 hours fro",
+          "value": 1.0,
+          "raw": " 1",
+          "key": "a provides minimal monthly time savings: hour from basic formatting,  hours"
+        },
+        {
+          "slide": 4,
+          "snippet": "e savings: 1 hour from basic formatting,  2 hours from content generation, and 0.5",
+          "value": 2.0,
+          "raw": " 2",
+          "key": "savings:  hour from basic formatting, hours from content generation, and"
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        4
+      ],
+      "evidence": [
+        {
+          "slide": 4,
+          "snippet": "from AI-powered content generation, and 8 hours from streamlined chart and table",
+          "value": 8.0,
+          "raw": "8",
+          "key": "from AI-powered content generation, and hours from streamlined chart and table"
+        },
+        {
+          "slide": 4,
+          "snippet": "g, 3 hours from content generation, and 1 hour from limited chart/table support.",
+          "value": 1.0,
+          "raw": "1",
+          "key": "hours from content generation, and hour from limited chart/table support."
+        },
+        {
+          "slide": 4,
+          "snippet": "g, 2 hours from content generation, and 0.5 hours from very basic chart/table creat",
+          "value": 0.5,
+          "raw": "0.5",
+          "key": "hours from content generation, and hours from very basic chart/table creat"
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        1,
+        2
+      ],
+      "explanation": "Slide 1 states Noogat helps make decks '2x faster', while Slide 2 claims '3x faster deck creation speed'.",
+      "excerpts": {
+        "1": "Noogat helps consultants make decks 2x faster using AI",
+        "2": "3x faster deck creation speed"
+      }
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        1,
+        2
+      ],
+      "explanation": "Slide 1 states an overall impact of '$2M', while Slide 2 claims '$3M saved in lost productivity hours annually'.",
+      "excerpts": {
+        "1": "Impact $2M",
+        "2": "$3M saved in lost productivity hours annually"
+      }
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        1,
+        2
+      ],
+      "explanation": "Slide 1 states '15 mins Saved per slide created', while Slide 2 claims '20 mins saved per slide created'.",
+      "excerpts": {
+        "1": "15 mins Saved per slide created",
+        "2": "20 mins saved per slide created"
+      }
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        3
+      ],
+      "explanation": "The headline of Slide 3 states 'Noogat: 50 Hours Saved Per Consultant Monthly', but the sum of the detailed breakdown categories within the same slide (10 + 12 + 8 + 6 + 4) equals 40 hours, not 50.",
+      "excerpts": {
+        "3": "Noogat: 50 Hours Saved Per Consultant Monthly\nAutomated Formatting... 10 hours per consultant monthly.\nContent Generation... 12 hours per consultant monthly.\nChart & Table Creation... 8 hours per consultant monthly.\nLayout Optimization... 6 hours per consultant monthly.\nReview & QA... 4 hours per consultant monthly."
+      }
+    },
+    {
+      "type": "contradictory_claim",
+      "slides": [
+        4,
+        6
+      ],
+      "explanation": "Slide 4 quantifies time savings, showing Copilot (6 hours total) saving more hours than Gamma (3.5 hours total) in common categories (formatting, content generation, chart/table creation). However, Slide 6 explicitly states 'Key Limitations of Copilot Compared to Gamma's Superior Slide Capabilities' and lists several qualitative areas where Gamma is superior, implying Gamma is the better tool overall.",
+      "excerpts": {
+        "4": "Copilot offers moderate monthly time savings: 2 hours from basic formatting, 3 hours from content generation, and 1 hour from limited chart/table support.\nGamma provides minimal monthly time savings: 1 hour from basic formatting, 2 hours from content generation, and 0.5 hours from very basic chart/table creation.",
+        "6": "Key Limitations of Copilot Compared to Gamma's Superior Slide Capabilities\nGamma demonstrates superior comprehension of complex presentation contexts and existing slide content, resulting in more relevant and integrated suggestions.\nGamma offers seamless integration with a broader range of presentation tools and platforms, enhancing workflow efficiency and reducing friction.\nGamma provides more robust customization options, allowing users to fine-tune its behavior and adapt to specific brand guidelines and template requirements more effectively."
+      }
+    }
+  ]
+}
