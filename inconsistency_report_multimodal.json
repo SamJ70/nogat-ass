@@ -1,0 +1,351 @@
+{
+  "analyzed_at": "2025-08-12T08:07:36.279895Z",
+  "source": "/mnt/c/Users/User/Downloads/NoogatAssignment/NoogatAssignment/NoogatAssignment.pptx",
+  "issues": [
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        3
+      ],
+      "evidence": [
+        {
+          "slide": 3,
+          "raw": "10",
+          "value": 10.0,
+          "context": "al adjustments. this saves an estimated 10 hours per consultant monthly.\nnoogat's "
+        },
+        {
+          "slide": 3,
+          "raw": "12",
+          "value": 12.0,
+          "context": "ial setup time. this saves an estimated 12 hours per consultant monthly.\nnoogat st"
+        },
+        {
+          "slide": 3,
+          "raw": "8",
+          "value": 8.0,
+          "context": " visual appeal. this saves an estimated 8 hours per consultant monthly.\nnoogat op"
+        },
+        {
+          "slide": 3,
+          "raw": "6",
+          "value": 6.0,
+          "context": "sual hierarchy. this saves an estimated 6 hours per consultant monthly.\nnoogat's "
+        },
+        {
+          "slide": 3,
+          "raw": "4",
+          "value": 4.0,
+          "context": "anual checking. this saves an estimated 4 hours per consultant monthly.\nautomated"
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        4
+      ],
+      "evidence": [
+        {
+          "slide": 4,
+          "raw": " 10",
+          "value": 10.0,
+          "context": "livers significant monthly time savings: 10 hours from automated formatting, 12 hou"
+        },
+        {
+          "slide": 4,
+          "raw": " 2",
+          "value": 2.0,
+          "context": "ot offers moderate monthly time savings: 2 hours from basic formatting, 3 hours fr"
+        },
+        {
+          "slide": 4,
+          "raw": " 1",
+          "value": 1.0,
+          "context": "a provides minimal monthly time savings: 1 hour from basic formatting, 2 hours fro"
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "metric": "time saved",
+      "slides": [
+        1,
+        2
+      ],
+      "evidence": [
+        {
+          "metric": "Time saved",
+          "value": 15.0,
+          "unit": "minutes",
+          "qualifier": "per slide created",
+          "excerpt": "15 mins\nSaved in lost productivity hours\nSaved per slide created",
+          "slide": 1
+        },
+        {
+          "metric": "Time saved",
+          "value": 20.0,
+          "unit": "mins",
+          "qualifier": "per slide",
+          "excerpt": "20 mins saved per slide created",
+          "slide": 2
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "metric": "hours saved consultant",
+      "slides": [
+        3
+      ],
+      "evidence": [
+        {
+          "metric": "Hours Saved Per Consultant",
+          "value": 50.0,
+          "unit": "hours",
+          "qualifier": "monthly",
+          "excerpt": "Noogat: 50 Hours Saved Per Consultant Monthly",
+          "slide": 3
+        },
+        {
+          "metric": "Hours saved per consultant",
+          "value": 10.0,
+          "unit": "hours",
+          "qualifier": "monthly",
+          "excerpt": "This saves an estimated 10 hours per consultant monthly.",
+          "slide": 3
+        },
+        {
+          "metric": "Hours saved per consultant",
+          "value": 12.0,
+          "unit": "hours",
+          "qualifier": "monthly",
+          "excerpt": "This saves an estimated 12 hours per consultant monthly.",
+          "slide": 3
+        },
+        {
+          "metric": "Hours saved per consultant",
+          "value": 8.0,
+          "unit": "hours",
+          "qualifier": "monthly",
+          "excerpt": "This saves an estimated 8 hours per consultant monthly.",
+          "slide": 3
+        },
+        {
+          "metric": "Hours saved per consultant",
+          "value": 6.0,
+          "unit": "hours",
+          "qualifier": "monthly",
+          "excerpt": "This saves an estimated 6 hours per consultant monthly.",
+          "slide": 3
+        },
+        {
+          "metric": "Hours saved per consultant",
+          "value": 4.0,
+          "unit": "hours",
+          "qualifier": "monthly",
+          "excerpt": "This saves an estimated 4 hours per consultant monthly.",
+          "slide": 3
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        1,
+        2
+      ],
+      "explanation": "The efficiency improvement / deck creation speedup is stated as '2x faster' on slide 1 and '3x faster' on slide 2.",
+      "evidence": {
+        "1": "make decks 2x faster",
+        "2": "3x faster deck creation speed"
+      }
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        3,
+        4
+      ],
+      "explanation": "The total monthly hours saved for Noogat stated on slide 3 (50 hours) contradicts the sum of its component savings listed on slide 4 (10 + 12 + 8 = 30 hours).",
+      "evidence": {
+        "3": "Noogat: 50 Hours Saved Per Consultant Monthly",
+        "4": [
+          "10 hours from automated formatting",
+          "12 hours from AI-powered content generation",
+          "8 hours from streamlined chart and table creation"
+        ]
+      }
+    }
+  ],
+  "facts": [
+    {
+      "metric": "Efficiency improvement",
+      "value": 2.0,
+      "unit": "x faster",
+      "qualifier": null,
+      "excerpt": "make decks 2x faster",
+      "slide": 1
+    },
+    {
+      "metric": "Impact",
+      "value": 2000000.0,
+      "unit": "USD",
+      "qualifier": null,
+      "excerpt": "$2M Impact",
+      "slide": 1
+    },
+    {
+      "metric": "Time saved",
+      "value": 15.0,
+      "unit": "minutes",
+      "qualifier": "per slide created",
+      "excerpt": "15 mins\nSaved in lost productivity hours\nSaved per slide created",
+      "slide": 1
+    },
+    {
+      "metric": "Productivity savings",
+      "value": 3000000.0,
+      "unit": "USD",
+      "qualifier": "annual",
+      "excerpt": "$3M saved in lost productivity hours annually",
+      "slide": 2
+    },
+    {
+      "metric": "Time saved",
+      "value": 20.0,
+      "unit": "mins",
+      "qualifier": "per slide",
+      "excerpt": "20 mins saved per slide created",
+      "slide": 2
+    },
+    {
+      "metric": "Deck creation speedup",
+      "value": 3.0,
+      "unit": "x",
+      "qualifier": null,
+      "excerpt": "3x faster deck creation speed",
+      "slide": 2
+    },
+    {
+      "metric": "Hours Saved Per Consultant",
+      "value": 50.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "Noogat: 50 Hours Saved Per Consultant Monthly",
+      "slide": 3
+    },
+    {
+      "metric": "Hours saved per consultant",
+      "value": 10.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "This saves an estimated 10 hours per consultant monthly.",
+      "slide": 3
+    },
+    {
+      "metric": "Hours saved per consultant",
+      "value": 12.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "This saves an estimated 12 hours per consultant monthly.",
+      "slide": 3
+    },
+    {
+      "metric": "Hours saved per consultant",
+      "value": 8.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "This saves an estimated 8 hours per consultant monthly.",
+      "slide": 3
+    },
+    {
+      "metric": "Hours saved per consultant",
+      "value": 6.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "This saves an estimated 6 hours per consultant monthly.",
+      "slide": 3
+    },
+    {
+      "metric": "Hours saved per consultant",
+      "value": 4.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "This saves an estimated 4 hours per consultant monthly.",
+      "slide": 3
+    },
+    {
+      "metric": "Noogat Time Savings: Automated Formatting",
+      "value": 10.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "10 hours from automated formatting",
+      "slide": 4
+    },
+    {
+      "metric": "Noogat Time Savings: AI-Powered Content Generation",
+      "value": 12.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "12 hours from AI-powered content generation",
+      "slide": 4
+    },
+    {
+      "metric": "Noogat Time Savings: Streamlined Chart and Table Creation",
+      "value": 8.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "8 hours from streamlined chart and table creation",
+      "slide": 4
+    },
+    {
+      "metric": "Copilot Time Savings: Basic Formatting",
+      "value": 2.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "2 hours from basic formatting",
+      "slide": 4
+    },
+    {
+      "metric": "Copilot Time Savings: Content Generation",
+      "value": 3.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "3 hours from content generation",
+      "slide": 4
+    },
+    {
+      "metric": "Copilot Time Savings: Limited Chart/Table Support",
+      "value": 1.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "1 hour from limited chart/table support",
+      "slide": 4
+    },
+    {
+      "metric": "Gamma Time Savings: Basic Formatting",
+      "value": 1.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "1 hour from basic formatting",
+      "slide": 4
+    },
+    {
+      "metric": "Gamma Time Savings: Content Generation",
+      "value": 2.0,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "2 hours from content generation",
+      "slide": 4
+    },
+    {
+      "metric": "Gamma Time Savings: Very Basic Chart/Table Creation",
+      "value": 0.5,
+      "unit": "hours",
+      "qualifier": "monthly",
+      "excerpt": "0.5 hours from very basic chart/table creation",
+      "slide": 4
+    }
+  ]
+}

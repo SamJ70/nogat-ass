@@ -521,9 +521,7 @@ def main():
         slides = it.get("slides") or it.get("slide") or "?"
         expl = it.get("explanation") or it.get("metric") or it.get("error") or ""
         print(f"{i}. {typ} — slides {slides} — {str(expl)[:200]}")
-
+UPLOAD_CACHE={}
 if __name__ == "__main__":
     # small alias to UPLOAD_CACHE for inner functions
-    global UPLOAD_CACHE
-    UPLOAD_CACHE = UPLOAD_CACHE  # type: ignore
     main()
