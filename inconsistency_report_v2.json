@@ -1,0 +1,187 @@
+{
+  "analyzed_at": "2025-08-12T07:30:45.742984Z",
+  "source": "/mnt/c/Users/User/Downloads/NoogatAssignment/NoogatAssignment/NoogatAssignment.pptx",
+  "issues": [
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        1
+      ],
+      "evidence": [
+        {
+          "slide": 1,
+          "snippet": "y – Noogat helps consultants make decks 2 x faster using AI",
+          "value": 2.0,
+          "raw": "2",
+          "key": "– Noogat helps consultants make decks x faster using AI"
+        },
+        {
+          "slide": 1,
+          "snippet": "15 m ins",
+          "value": 15.0,
+          "raw": "15 m",
+          "key": "ins"
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        1,
+        2
+      ],
+      "evidence": [
+        {
+          "slide": 1,
+          "snippet": "$2M",
+          "value": 2.0,
+          "raw": "$2M",
+          "key": ""
+        },
+        {
+          "slide": 2,
+          "snippet": "$3M saved in lost productivity hours annual",
+          "value": 3.0,
+          "raw": "$3M",
+          "key": "saved in lost productivity hours annual"
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        3
+      ],
+      "evidence": [
+        {
+          "slide": 3,
+          "snippet": "Noogat:  50 Hours Saved Per Consultant Monthly",
+          "value": 50.0,
+          "raw": " 50",
+          "key": "Noogat: Hours Saved Per Consultant Monthly"
+        },
+        {
+          "slide": 3,
+          "snippet": "al adjustments. This saves an estimated 10 hours per consultant monthly.",
+          "value": 10.0,
+          "raw": "10",
+          "key": "al adjustments. This saves an estimated hours per consultant monthly."
+        },
+        {
+          "slide": 3,
+          "snippet": "ial setup time. This saves an estimated 12 hours per consultant monthly.",
+          "value": 12.0,
+          "raw": "12",
+          "key": "setup time. This saves an estimated hours per consultant monthly."
+        },
+        {
+          "slide": 3,
+          "snippet": "visual appeal. This saves an estimated 8 hours per consultant monthly.",
+          "value": 8.0,
+          "raw": "8",
+          "key": "visual appeal. This saves an estimated hours per consultant monthly."
+        },
+        {
+          "slide": 3,
+          "snippet": "sual hierarchy. This saves an estimated 6 hours per consultant monthly.",
+          "value": 6.0,
+          "raw": "6",
+          "key": "sual hierarchy. This saves an estimated hours per consultant monthly."
+        },
+        {
+          "slide": 3,
+          "snippet": "anual checking. This saves an estimated 4 hours per consultant monthly.",
+          "value": 4.0,
+          "raw": "4",
+          "key": "anual checking. This saves an estimated hours per consultant monthly."
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        4
+      ],
+      "evidence": [
+        {
+          "slide": 4,
+          "snippet": "livers significant monthly time savings:  10 hours from automated formatting, 12 hou",
+          "value": 10.0,
+          "raw": " 10",
+          "key": "livers significant monthly time savings: hours from automated formatting,  hou"
+        },
+        {
+          "slide": 4,
+          "snippet": "ot offers moderate monthly time savings:  2 hours from basic formatting, 3 hours fr",
+          "value": 2.0,
+          "raw": " 2",
+          "key": "ot offers moderate monthly time savings: hours from basic formatting,  hours"
+        },
+        {
+          "slide": 4,
+          "snippet": "savings: 2 hours from basic formatting,  3 hours from content generation, and 1 ho",
+          "value": 3.0,
+          "raw": " 3",
+          "key": "savings:  hours from basic formatting, hours from content generation, and"
+        },
+        {
+          "slide": 4,
+          "snippet": "a provides minimal monthly time savings:  1 hour from basic formatting, 2 hours fro",
+          "value": 1.0,
+          "raw": " 1",
+          "key": "a provides minimal monthly time savings: hour from basic formatting,  hours"
+        },
+        {
+          "slide": 4,
+          "snippet": "e savings: 1 hour from basic formatting,  2 hours from content generation, and 0.5",
+          "value": 2.0,
+          "raw": " 2",
+          "key": "savings:  hour from basic formatting, hours from content generation, and"
+        }
+      ]
+    },
+    {
+      "type": "numeric_conflict",
+      "slides": [
+        4
+      ],
+      "evidence": [
+        {
+          "slide": 4,
+          "snippet": "from AI-powered content generation, and 8 hours from streamlined chart and table",
+          "value": 8.0,
+          "raw": "8",
+          "key": "from AI-powered content generation, and hours from streamlined chart and table"
+        },
+        {
+          "slide": 4,
+          "snippet": "g, 3 hours from content generation, and 1 hour from limited chart/table support.",
+          "value": 1.0,
+          "raw": "1",
+          "key": "hours from content generation, and hour from limited chart/table support."
+        },
+        {
+          "slide": 4,
+          "snippet": "g, 2 hours from content generation, and 0.5 hours from very basic chart/table creat",
+          "value": 0.5,
+          "raw": "0.5",
+          "key": "hours from content generation, and hours from very basic chart/table creat"
+        }
+      ]
+    },
+    {
+      "type": "llm_error",
+      "error": "genai call failed: module 'google.generativeai' has no attribute 'generate_text'",
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "raw": "Traceback (most recent call last):\n  File \"/mnt/c/Users/User/Downloads/nogatass/pptx_inconsistency_checker.py\", line 464, in ask_gemini_for_contradictions_with_images\n    response = genai.generate_text(model=GEMINI_MODEL, input=prompt_text)\nAttributeError: module 'google.generativeai' has no attribute 'generate_text'\n"
+    }
+  ]
+}
